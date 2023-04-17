@@ -1,0 +1,485 @@
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    box-sizing: 0;
+    margin: 0;
+    max-width: 1300px;
+}
+.navbar{
+    border-bottom: 1px solid black;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+ li{
+   display: inline-block;
+   padding: 2px 4px;
+   transition: transform .2s;
+   word-spacing: 10px;
+   color: black;
+   margin: 15px;
+ }
+ li a{
+    text-decoration: none;
+    align-items: center;
+ }
+.solutions{
+    display: flex;
+   align-items: center;
+   margin-right: 50px;
+}
+body{
+    margin: 0;
+    max-width: 1300px;
+    font-family:"satoshi";
+}
+#logo{
+  margin-left: 8%;
+}
+#image{
+    position: absolute;
+    margin-left: 5%;
+}
+#signup{
+   background: blue;
+   color: white;
+   border: 3px solid blue;
+   margin-right: 5%;
+   padding: 5px 5px;
+}
+#login{
+    margin-left: 65%;
+}
+#webinars{
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#rectangle{
+    margin: 25px 30px;
+}
+#strength{
+    margin: 35px;
+    float: left;
+    margin-right: 12%;
+    margin-top: 0;
+}
+h6{
+    margin-top: 0;
+    padding-top: 0;
+    font-weight: lighter;
+    font-size: 12px;
+}
+button{
+    margin: 7px;
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: 1px solid blue;
+    float: right;
+    margin-right: 62%;
+}
+#speakers{
+    margin: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0;
+}
+#view{
+    margin-left: 92%;
+    padding-bottom: 20px;
+}
+.Web{
+    border-bottom: 0.5px solid black;
+}
+#therapist{
+    font-size: 12px;
+    font-weight: lighter;
+    margin-bottom: 35px;
+    margin: 15px;
+}
+.div3{
+    display: flex;
+    flex-direction: row;
+}
+.new{
+    display: flex;
+    flex-direction: column;
+    gap: 330px;
+}
+.container1{
+    display: flex;
+    justify-content: end;
+    margin-left: 4.5%;
+    padding-top: 20px;
+}
+#footer1{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.5px solid lightskyblue;
+}
+#web1{
+    margin-left: 75%;
+    padding-bottom: 10px;
+}
+#choose{
+    margin: 35px;
+}
+#events{
+    margin: 13px;
+    padding-bottom: 20px;
+}
+.flex-container{
+    padding-top: 0;
+    margin-bottom: 0;
+    margin: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+#selector{
+    float: right;
+    margin-right: 80px;
+}
+.subscribe{
+    background: #E7F0FF;
+    width: 100%;
+}
+#subscription{
+    background: blue ;
+    padding: 10px;
+    color: white;
+    border: 1px solid blue;
+    width: 15%;
+}
+form{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 55px;
+}
+#news{
+    font-size: 45px;
+    text-align: center;
+    padding-top: 55px;
+}
+#textified{
+    width: 25%;
+    height: 25px;
+    margin: 3px;
+    margin-left: 15px;
+}
+.info{
+    background:#1070FF;
+    color: white;
+    padding-bottom: 5%;
+    width: 100%;
+}
+.th1{
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+}
+.td1{
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 5px;
+    padding: 10px;
+}
+.td2{
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 5px;
+    padding: 10px;
+}
+.td3{
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 5px;
+    padding: 10px;
+}
+.td4{
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 5px;
+    padding: 10px;
+}
+#secondlogo{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: none;
+}
+#imagenew{
+    background: #E7F0FF;
+    margin-left: 7.5%;
+}
+#logo2{
+    margin-right: 84%;
+}
+@media screen  and (max-width: 480px) {
+    #paragraph{
+        font-size: 5px;
+        font-weight: bolder;
+        margin-left: 15%;
+    }
+    #rectangle{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    #strength{
+        margin-left: 10%;
+        font-size: 50px;
+    }
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 5px;
+    }
+    #webinars{
+        margin-left: 70px;
+        font-size: 50px;
+        text-align: center;
+    }
+    h6{
+        font-size: 15px;
+        margin-left: 40px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    #login{
+        margin-left: 2%;
+    }
+    button{
+        font-size: 22px;
+        margin-left: 22px;
+        padding: 12px;
+    }
+    #view{
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+        margin-left: 70%;
+    }
+    #speakers{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    #web1{
+        margin-left: 40%;
+        padding-top: 10px;
+    }
+    #therapist{
+        font-size: 15px;
+        margin-left: 70px;
+    }
+    #events{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .container1{
+        display: flex;
+        flex-direction: column;
+    }
+    #notify{
+        font-size: 15px;
+    }
+    #selector{
+       margin-right: 140px; 
+       width: 100px;
+    }
+    .subscribe{
+        background: #E7F0FF;
+        width: 400px;
+    }
+    #subscription{
+        background: blue ;
+        padding: 10px;
+        color: white;
+        border: 1px solid blue;
+        width: 25%;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 55px;
+    }
+    #news{
+        font-size: 30px;
+        text-align: center;
+        padding-top: 55px;
+    }
+    p{
+      font-size: 20px;
+      margin-left: 15px;  
+    }
+    #textified{
+        width: 45%;
+        height: 25px;
+        margin: 3px;
+        margin-left: 15px;
+    }
+    .info{
+        background:#1070FF;
+        color: white;
+        padding-bottom: 5%;
+        width: 400px;
+    }
+    .new{
+     display: flex;
+     flex-direction: column;
+    }
+    .div3{
+    display: flex;
+    flex-direction: column;
+    }
+    .new{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+}
+     #choose{
+        position: absolute;
+        margin-top: 265%;
+        margin-left: 28.5%;
+        width: 150px;
+
+     }
+}
+@media screen  and (min-width: 481px) and (max-width: 850px) {
+    #paragraph{
+        font-size: 10.5px;
+        font-weight: bolder;
+        margin-left: 11%;
+    }
+    #rectangle{
+        display: flex;
+        flex-direction: column;
+        width: 87%;
+    }
+    #strength{
+        margin-left: 4%;
+        font-size: 35px;
+    }
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 5px;
+    }
+    #webinars{
+        margin-left: 50px;
+        font-size: 50px;
+        text-align: center;
+    }
+    h6{
+        font-size: 15px;
+        margin-left: 40px;
+    }
+    #login{
+        margin-left: 2%;
+    }
+    button{
+        font-size: 22px;
+        margin-left: 22px;
+        padding: 12px;
+    }
+    #view{
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+        margin-left: 70%;
+    }
+    #speakers{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    #web1{
+        margin-left: 40%;
+        padding-top: 10px;
+    }
+    #therapist{
+        font-size: 17px;
+        margin-left: 5px;
+    }
+    #events{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .container1{
+        display: flex;
+        flex-direction: row;
+    }
+    #notify{
+        font-size: 15px;
+    }
+    #selector{
+       margin-right: 140px; 
+       width: 100px;
+    }
+    .subscribe{
+        background: #E7F0FF;
+        width: 820px;
+    }
+    #subscription{
+        background: blue ;
+        padding: 10px;
+        color: white;
+        border: 1px solid blue;
+        width: 25%;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 55px;
+    }
+    #news{
+        font-size: 30px;
+        text-align: center;
+        padding-top: 55px;
+    }
+    p{
+      font-size: 20px;
+      margin-left: 15px;  
+    }
+    #textified{
+        width: 45%;
+        height: 25px;
+        margin: 3px;
+        margin-left: 15px;
+    }
+    .info{
+        background:#1070FF;
+        color: white;
+        padding-bottom: 5%;
+        width: 800px;
+    }
+    .new{
+     display: flex;
+     flex-direction: column;
+    }
+    .div3{
+    display: flex;
+    flex-direction: row;
+    }
+    .new{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+}
+     #choose{
+        position: absolute;
+        margin-top: 265%;
+        margin-left: 28.5%;
+        width: 150px;
+
+     }
+}
+
